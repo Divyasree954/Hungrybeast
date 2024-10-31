@@ -3,7 +3,7 @@ import './workerfooter.css'
 
 const WorkerFooter = () => {
   return (
-    <div>this is WorkerFooter</div>
+    <div></div>
   )
 }
 

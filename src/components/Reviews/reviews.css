@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Background container for the whole Reviews section */
+.background {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #FFD700;
+    text-align: center;
+    padding: 50px;
+    min-height: 100vh; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Title and subtitle styles */
+.title {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    font-size: 1.2em;
+    margin-bottom: 50px;
+}
+
+/* Reviews container */
+.reviews {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Individual review card styling */
+.review-card {
+    position: relative;
+    width: 250px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.background-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('../../assets/inbox-HB.jpg'); 
+    background-size: cover;
+    background-position: top right;
+    border-radius: 15px;
+    z-index: 0;
+}
+
+.review-card img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-top: 20px;
+    position: relative;
+    z-index: 1;
+}
+
+.name, .rating, .review-text {
+    position: relative;
+    z-index: 1;
+}
+
+.name {
+    color: #00FF00;
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.rating {
+    color: #FFD700;
+    font-size: 1.2em;
+    margin-bottom: 15px;
+}
+
+.review-text {
+    font-size: 1em;
+    color: #FFFFFF;
+    padding: 10px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .title {
+        font-size: 2em;
+    }
+
+    .subtitle {
+        font-size: 1em;
+        margin-bottom: 30px;
+    }
+
+    .review-card {
+        width: 90%;
+    }
+
+    .review-card img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .name {
+        font-size: 1.2em;
+    }
+
+    .rating, .review-text {
+        font-size: 0.9em;
+    }
+}
+
+@media (max-width: 480px) {
+    .title {
+        font-size: 1.8em;
+    }
+
+    .subtitle {
+        font-size: 0.9em;
+    }
+
+    .reviews {
+        gap: 10px;
+    }
+
+    .review-card {
+        padding: 20px;
+    }
+
+    .review-card img {
+        width: 70px;
+        height: 70px;
+    }
+
+    .name {
+        font-size: 1em;
+    }
+
+    .rating, .review-text {
+        font-size: 0.8em;
+    }
+}
