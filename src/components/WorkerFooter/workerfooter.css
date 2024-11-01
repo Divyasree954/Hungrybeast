@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Outfit:wght@100..900&display=swap');
+.team {
+    background-image: url('../../assets/menu.jpg');
+    height:750px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.team h1 {
+    text-align: center;
+    color: #FBC02D;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.team h2 {
+    text-align: center;
+    color: #FBC02D;
+    font-size: 20px;
+    font-weight: 600;
+    padding-top: 7px;
+}
+
+.team-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:150px;
+    margin-top: 30px;
+}
+
+.member {
+    text-align: center;
+}
+
+.team-img img {
+    height: 220px;
+    width: 220px;
+    border-radius: 20px;
+}
+
+.team-img p {
+    color: #1EDE26;
+    font-weight: bold;
+    margin-top: 20px;
+    font-size: 18px;
+}
+.footer .location-img{
+    height:180px;
+    width:320px;
+    margin-left:200px;
+    margin-top:35px;
+}
+.footer .location-p{
+    color:white;
+    margin-left:240px;
+    margin-top:15px;
+    font-family:Inria Serif;
+    font-size:21px;
+    /* border:2px solid green; */
+}
+.main-footer{
+    display:flex;
+}
+.footer-links1 .p-0{
+    color:#FBC02D;
+    margin-left:78px;
+    margin-top:20px;
+    font-size:23px;
+}
+.footer-links1 .p-1{
+    color:white;
+    font-family:Inria Serif;
+    margin-left:70px;
+    margin-top:10px;
+    font-size:21px;  
+}
+.footer-links2 .p-0{
+    color:#FBC02D;
+    margin-top:20px;
+    font-size:21px;
+    margin-left:65px;
+}
+.footer-links2 .p-1{
+    color:white;
+    font-family:Inria Serif;
+    font-size:24px;
+    margin-left:80px;
+    margin-top:10px;
+}
+.footer-links2 .p-2{
+    color:white;
+    font-family:Inria Serif;
+    font-size:24px;
+    margin-left:44px;
+}
+.footer-links2 .p-3{
+    color:white;
+    font-family:Inria Serif;
+    font-size:24px;
+    margin-left:80px;
+}
+.footer-links3 .p-0{
+    color:#FBC02D;
+    margin-top:20px;
+    font-size:21px;
+    margin-left:65px;
+}
+.footer-links3 .p-1{
+    color:white;
+    font-family:Inria Serif;
+    font-size:20px;
+    margin-left:59px;
+    margin-top:10px;
+}
+.footer-links3 .p-2{
+    color:white;
+    font-family:Inria Serif;
+    font-size:21px;
+    margin-left:54px;
+}
+.footer-links3 img{
+    margin-left:50px;
+}
+.footer-imgs{
+    display:flex;
+    align-items:center;
+    gap:15px;
+    margin-left:680px;
+}
+.footer-imgs img{
+    height:40px;
+    width:40px;
+    border-radius:50%;
+}
+.dev{
+    color:white;
+    font-family:Inria Serif;
+    font-family:bold;
+    font-size:22px;
+    font-weight:600;
+    margin-left:620px;
+    margin-top:10px;
+}
+/* Responsive Design */
+@media (max-width: 768px) {
+    .team {
+        height: auto;
+        padding: 20px;
+    }
+
+    .team-img {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .team-img img {
+        height: 150px;
+        width: 150px;
+    }
+
+    .main-footer {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer .location-img {
+        margin: 20px 0;
+        width: 100%;
+        height: auto;
+    }
+
+    .footer .location-p {
+        margin: 0;
+        font-size: 18px;
+    }
+
+    .footer-links1, .footer-links2, .footer-links3 {
+        margin: 10px 0;
+    }
+
+    .footer-links1 .p-1, .footer-links2 .p-1, .footer-links2 .p-2, .footer-links2 .p-3, .footer-links3 .p-1, .footer-links3 .p-2 {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .footer-imgs {
+        justify-content: center;
+        margin: 10px 0;
+    }
+
+    .dev {
+        text-align: center;
+        font-size: 18px;
+        margin: 15px 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .team h1, .team h2 {
+        font-size: 18px;
+    }
+
+    .team-img img {
+        height: 120px;
+        width: 120px;
+    }
+
+    .footer-links1 .p-0, .footer-links2 .p-0, .footer-links3 .p-0 {
+        font-size: 18px;
+    }
+
+    .footer-links1 .p-1, .footer-links2 .p-1, .footer-links2 .p-2, .footer-links2 .p-3, .footer-links3 .p-1, .footer-links3 .p-2 {
+        font-size: 16px;
+    }
+
+    .footer .location-img {
+        width: 100%;
+        height: auto;
+    }
+
+    .footer-imgs img {
+        height: 30px;
+        width: 30px;
+    }
+
+    .dev {
+        font-size: 16px;
+    }
+}

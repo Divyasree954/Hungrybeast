@@ -28,7 +28,15 @@ import menu_bg from './menu_bg.jpg'
 import chaithra from './chaithra.jpg'
 import cm from './cm.jpg'
 import cmenu from './cmenu.jpg'
-
+import arpana from './arpana.jpeg'
+import lakshmi from './lakshmi.jpg'
+import marrappa from './marrappa.jpeg'
+import linkedin from './linkedin.jpg'
+import facebook from './facebook.jpg'
+import youtube from './youtube.jpg'
+import twitter from './twitter.jpg'
+import location from './location.jpg'
+import logo from './hblogo.png'
 
 
 export const assets={
@@ -227,3 +235,6 @@ export const MenuData=[
     }
 ]
 
+export const team = {
+    arpana,lakshmi,marrappa,linkedin,twitter,facebook,youtube,location,logo
+}
