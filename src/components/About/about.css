@@ -1,0 +1,85 @@
+.about-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    gap: 20px; 
+    padding: 20px;
+ 
+  }
+  
+  .about-text {
+    max-width: 600px; 
+    text-align:90vh; 
+    align-items: center; 
+    font-family: 'Inknut Antiqua', serif; 
+    color: white; 
+  }
+  .about-text p {
+    font-family: 'Inria Serif', serif; 
+    color:white; 
+    font-size: 500em; 
+    margin: 10px 0; 
+  }
+  
+  .about-container h1 {
+    color: yellow; 
+    font-size: 2em;
+    text-align: center;
+
+  }
+  .about-container h2 {
+    color: yellow; 
+    font-size: 2em;
+    font-weight: bold;
+  
+  }
+  
+  .about-container{
+    background-image:url('../src/assets/menu_bg.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+    color:white;
+  }
+  .about-container img {
+    width: 300px; 
+    height: 60vh; 
+    padding: 10px; 
+    
+    border: 2px solid black; 
+    border-radius: 80px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    flex-shrink: 0; 
+    
+  }
+    .menu-button {
+    padding: 12px 30px; /* Padding inside the button */
+    font-size: 16px; /* Font size */
+    color: white; /* Text color */
+    background: linear-gradient(90deg, #ffcc00, #ff6699); /* Gradient background */
+    border: none; /* No border */
+    border-radius: 55px; /* Rounded edges */
+    cursor: pointer; /* Cursor changes to pointer on hover */
+    transition: background 0.3s, transform 0.3s, box-shadow 0.3s; /* Smooth transitions */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+  }
+  
+  .menu-button:hover {
+    background: linear-gradient(90deg, #ffd54f, #ff6f61); /* Different gradient on hover */
+    transform: translateY(-3px) scale(1.05); /* Lift effect on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4); /* Darker shadow on hover */
+  }
+  
+  .menu-button:active {
+    transform: translateY(2px); /* Slight push down effect on click */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Reduced shadow on click */
+  }
+  
+  
+  
+  #images-div{
+    justify-content:space-between;
+    display:flex;
+margin-left:30px;
+  }
+ 
