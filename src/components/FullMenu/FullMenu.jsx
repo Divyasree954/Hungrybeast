@@ -1,31 +1,32 @@
-// src/components/Menu.js
-// import React from 'react';
-import { MenuData } from '../../assets/assets'; // Ensure the path to the assets is correct
-import './fullmenu.css'; // Import the CSS file for styling
+import { MenuData } from '../../assets/assets'; 
+import './fullmenu.css'; 
+import { Link } from 'react-router-dom';
+
 
 const FullMenu = () => {
   return (
+
     <div className="p-6  min-h-screen menu-container">
       <h1 className="text-3xl font-bold text-center mb-8">
         Our Menu
       </h1>
 
       {MenuData.map((section, index) => (
-        
-        <div
-          key={section._id}
-          className={`flex flex-col md:flex-row items-center justify-between max-w-4xl mx-auto my-8 ${
-            index % 2 === 0 ? 'md:flex-row' : 'md:flex-row-reverse'
-          }`}
-        >
+
+        <div key={section._id} className={`flex flex-col md:flex-row items-center justify-between max-w-4xl mx-auto my-8 ${index % 2 === 0 ? 'md:flex-row' : 'md:flex-row-reverse'}`} >
 
           {/* Section Image */}
-         
-          <img
-  src={section.image}
-  alt={section.title}
-  className="w-full md:w-[45%] lg:w-[40%] xl:w-[35%] rounded-lg shadow-md mb-4 md:mb-0 object-cover max-h-64"
-/>
+
+          <img 
+            src={section.image}
+            alt={section.title} style={{
+              boxShadow:
+                index % 2 === 0
+                  ? '3px 3px 9px rgba(255, 165, 0, 0.7)'
+                  : '3px 3px 9px rgba(255, 255, 255, 0.7)',
+            }}
+            className="w-full md:w-[45%] lg:w-[40%] xl:w-[35%] rounded-lg shadow-md mb-4 md:mb-0 object-cover max-h-64 hover:scale-105 transition-all duration-700"
+          />
 
 
           {/* Menu Items */}
@@ -47,7 +48,19 @@ const FullMenu = () => {
           </div>
         </div>
       ))}
+     <Link to='/'>
+          <div className='text-center p-12 text-black'>
+            <button className='menu-button 
+    bg-orange-450 text-black font-semibold py-2 px-4 rounded-lg 
+    shadow-md transition-transform duration-300 transform hover:scale-105 
+    hover:bg-orange-450 active:scale-95 focus:outline-none focus:ring-2 focus:ring-orange-40 
+    focus:ring-opacity-50'>
+              Back
+            </button>
+          </div>
+        </Link>
     </div>
+
   );
 };
 
