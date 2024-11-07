@@ -5,12 +5,13 @@ import './Navhead.css'
 function NavHead()
 {
   return (
+    <section id="home">
     <div className="home">
       <nav className="navbar">
         <img src="./public/hglogo 1.png" alt="Hungry Beast" className="logo" />
         <ul className="nav-links">
        <li><a href="#home">Home</a></li>
-       <li><a href="#about">About Us</a></li>
+       <li><a href="#aboutus">About Us</a></li>
        <li><a href="#menu">Menu</a></li>
       <li><a href="#reviews">Reviews</a></li>
        <li><a href="#team">Team</a></li>
@@ -35,6 +36,7 @@ function NavHead()
         </div>
      </div>
      </div>
+     </section>
   );
 }
 export default NavHead

@@ -1,8 +1,7 @@
 /* src/components/Menu.css */
 .menu-container{
-    background-image: url('../../assets/cm.jpg');
+    background-image: url('../../assets/menu.jpg');
     background-size: cover; 
-    background-position: center; 
     background-repeat: no-repeat;
     background-attachment: fixed;
     color: #FBC02D;
@@ -57,7 +56,7 @@
   /* For screens smaller than 768px */
   @media (max-width: 768px) {
     .menu-container{
-      background-image: url('../../assets/chaithra.jpg');
+      background-image: url('../../assets/cm.jpg');
     }
     .section-content {
       flex-direction: column; /* Stack image and items vertically */

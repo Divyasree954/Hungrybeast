@@ -1,7 +1,6 @@
 .menu-bg{
     background-image: url('../../assets/cm.jpg');
-    background-size: cover; 
-    background-position: center; 
+    background-size: cover;  
     background-repeat: no-repeat;
     background-attachment: fixed;
     color: #FBC02D;
@@ -9,9 +8,8 @@
 .menu-button{
     background-color: #FBC02D;
 }
-  
 @media (max-width: 410px) {
     .menu-bg {
-        background-image: url('../../assets/chaithra.jpg');
+        background-image: url('../../assets/cm.jpg');
     }
 }
