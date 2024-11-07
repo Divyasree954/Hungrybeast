@@ -4,16 +4,14 @@ import chickenFriedRice from '../../assets/chicken-biryani.jpg';
 
 const About = () => {
   return (
+    <section id="aboutus">
     <div className="about-container">
       <div className="container">
         <h1>About Us</h1>
       </div>
-      <center>
         <h2>We Deliver Best &</h2>
         <br />
         <h3>Delicious Food For You</h3>
-      </center>
-
       <div id="images-div">
         <div className="info-div">
           <p>Enjoy our food experience</p>
@@ -33,6 +31,7 @@ const About = () => {
         </div>
       </div>
     </div>
+    </section>
   );
 };
 
