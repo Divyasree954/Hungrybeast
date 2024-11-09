@@ -1,6 +1,6 @@
 .home
   {
-    background-image: url(../../assets/menu.jpg);
+    background-image: url(../../assets/cm.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     color:#FBC02D;
@@ -64,7 +64,8 @@
   }
   .explore-btn {
     background-color:#FBC02D; /* Button background color */
-    color: rgb(20, 18, 18); /* Text color */
+    color: rgb(20, 18, 18); 
+    font-weight: bold;/* Text color */
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
@@ -74,7 +75,6 @@
     margin-left: 340px;
 
   }
-  
   .explore-btn:hover {
     background-color:  #FF862F; /* Lighter shade for hover */
     transform: scale(1.05); /* Slightly enlarge the button on hover */
@@ -141,7 +141,7 @@
     width: 141%;
   }
   .header{
-    margin-top: 200px;
+    margin-top: 220px;
   }
   .image5{
     margin-top: 150px;
@@ -156,3 +156,130 @@
   .image6:hover{
     transform: scale(1.05);
   }
+  @media (max-width: 768px) {
+
+    .home {
+        height: auto;
+        padding: 20px;
+        background-size: cover;
+        text-align: center;
+       
+    }
+
+    .navbar {
+        padding: 1rem;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        margin-right: 0;
+        font-size: 16px;
+    }
+
+    .nav-links li {
+        margin: 0.5rem 0;
+    }
+
+    .content {
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    .h1 {
+        font-size: 36px;
+        margin-left: 0;
+    }
+
+    .h2 {
+        font-size: 20px;
+        margin-left: 0;
+    }
+
+    .para, .para1 {
+        font-size: 18px;
+        margin-left: 0;
+    }
+
+    .explore-btn {
+        font-size: 14px;
+        margin-left: 0;
+        padding: 8px 16px;
+    }
+
+    .food-images {
+        grid-template-columns: repeat(2, 1fr);
+        margin-left: 0;
+        
+    }
+    .food-images img {
+      width: 50px;
+      height: 180px;
+        position: relative;
+        flex-direction: row;
+        right: 570px;
+        top: 400px;
+    }
+    .logo{
+      margin-left: 0px;
+    }
+    .image1{
+      margin-top: 50px;
+    }
+    .image2{
+      margin-top: 50px;
+    }
+    .image3{
+      margin-top: 130px;
+    }
+    .image4{
+      margin-top: 130px;
+    }
+    .image5{
+      margin-top: 210px;
+    }
+    .image6{
+      margin-top: 210px;
+    }
+}
+
+@media (max-width: 480px) {
+    .home {
+        padding: 15px;
+    }
+
+    .navbar {
+        padding: 0.5rem;
+    }
+
+    .nav-links {
+        font-size: 14px;
+    }
+
+    .h1 {
+        font-size: 28px;
+    }
+
+    .h2 {
+        font-size: 18px;
+    }
+
+    .para, .para1 {
+        font-size: 16px;
+    }
+
+    .explore-btn {
+        font-size: 12px;
+        padding: 6px 12px;
+    }
+    .food-images img {
+        width: 120px;
+        height: 120px;
+    }
+
+    .logo {
+        height: 50px;
+        margin-left: 0px;
+    }
+}

@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Outfit:wght@100..900&display=swap');
 .team {
-    background-image: url('../../assets/menu.jpg');
+    background-image: url('../../assets/cm.jpg');
     height:750px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -9,7 +9,7 @@
 .team h1 {
     text-align: center;
     color: #FBC02D;
-    font-size: 22px;
+    font-size: 32px;
     font-weight: bold;
 }
 
@@ -145,6 +145,7 @@
 /* Responsive Design */
 @media (max-width: 768px) {
     .team {
+        background-image: url(../../assets/cm.jpg);
         height: auto;
         padding: 20px;
     }

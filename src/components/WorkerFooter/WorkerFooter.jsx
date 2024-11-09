@@ -4,8 +4,9 @@ import { team } from '../../assets/assets.js';
 
 const WorkerFooter = () => {
   return (
+    <section id="team">
     <div className='team'>
-      <h1>Our Team</h1>
+      <h1>Team</h1>
       <h2>Meet our Team Members....</h2>
       <div className='team-img'>
         <div className="member">
@@ -51,6 +52,7 @@ const WorkerFooter = () => {
       </div>
       <p className='dev'>Developed by Web Plus Academy</p>
     </div>
+    </section>
   );
 }
 

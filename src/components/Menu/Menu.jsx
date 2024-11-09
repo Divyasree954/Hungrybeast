@@ -14,11 +14,15 @@ const Menu = () => {
   };
 
   return (
+
     
+
+    <section id="menu">
+
     <div className="menu-bg flex items-center justify-center">
       <div className=''>
         <div className="p-9">
-          <h1 className="text-4xl font-bold text-center">Our Menu</h1>
+          <h1 className="text-3xl font-bold text-center">Menu</h1>
         </div>
         <div className=" mt-10 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4  lg:grid-cols-5 gap-6 px-4 w-full max-w-6xl flext justify-center items-center">
           {menu_list.map((item, index) => (
@@ -35,7 +39,6 @@ const Menu = () => {
                   src={item.menu_image}
                   alt={item.menu_name}
                 />
-
               </div>
               <div className="m-3 text-center">
                 <p className="text-lg font-semibold">{item.menu_name}</p>
@@ -56,6 +59,7 @@ const Menu = () => {
         </Link>
       </div>
     </div>
+    </section>
   );
 };
 export default Menu;
