@@ -148,7 +148,7 @@ export const MenuData=[
     },
     {
         _id:"5",
-        title:"Fried items",
+        title:"Fried Rice",
         image:chickennoodles,
         items: [
             { name: "Gobi Rice", price: 70 },

@@ -1,6 +1,5 @@
-/* src/components/Menu.css */
 .menu-container{
-    background-image: url('../../assets/cm.jpg');
+   background-image: url(../../assets/menu.jpg);
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat;
@@ -19,13 +18,16 @@
     margin: 10px auto;
     max-width: 800px;
   }
+  .fullmenu-button{
+    background-color: #FBC02D;
+
+  }
   
-  /* Even section layout: Image first */
   .even-section {
     flex-direction: row;
   }
   
-  /* Odd section layout: Items first */
+
   .odd-section {
     flex-direction: row-reverse;
   }
@@ -52,30 +54,28 @@
     font-size: 16px;
   }
   
-  /* RESPONSIVE DESIGN */
-  
-  /* For screens smaller than 768px */
+ 
   @media (max-width: 768px) {
     .menu-container{
       background-image: url('../../assets/chaithra.jpg');
     }
     .section-content {
-      flex-direction: column; /* Stack image and items vertically */
+      flex-direction: column; 
       align-items: center;
       text-align: left;
     }
   
     .section-image {
-      width: 100%; /* Full width image */
+      width: 100%;
       max-width: 400px;
     }
   
     .menu-items {
-      width: 100%; /* Full width items */
+      width: 100%;
       gap: 15px;
     }
   
     .menu-item {
-      font-size: 18px; /* Increase font size for readability */
+      font-size: 18px; 
     }
   }
