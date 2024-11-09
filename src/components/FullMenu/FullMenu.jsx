@@ -1,9 +1,12 @@
 import { MenuData } from '../../assets/assets'; 
 import './fullmenu.css'; 
 import { Link } from 'react-router-dom';
-
+import { useEffect } from 'react';
 
 const FullMenu = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
 
     <div className="p-6  min-h-screen menu-container">
@@ -50,7 +53,7 @@ const FullMenu = () => {
       ))}
      <Link to='/'>
           <div className='text-center p-12 text-black'>
-            <button className='menu-button 
+            <button className='fullmenu-button 
     bg-orange-450 text-black font-semibold py-2 px-4 rounded-lg 
     shadow-md transition-transform duration-300 transform hover:scale-105 
     hover:bg-orange-450 active:scale-95 focus:outline-none focus:ring-2 focus:ring-orange-40 

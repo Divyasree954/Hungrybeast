@@ -1,0 +1,101 @@
+.rc{
+ display: flex;
+ gap: 100px;
+  }
+  .filter{
+    background-image: url(../../assets/cm.jpg);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #FBC02D;
+    background-size: contain;
+    /* height: 200vh; */
+  }
+  body{
+    background-color: #222; 
+  }
+
+  .filter-menu {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .filter-menu h2 {
+    font-size: 2.4rem;
+    font-weight: bold;
+    color: #ffc107; 
+    margin-bottom: 20px;
+  }
+
+  .filter-img {
+    max-width: 200px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    margin-left: 70px;
+  }
+  
+  .item-card {
+    display: flex;
+  }
+  
+  .item-card p {
+    font-size: 1.2rem;
+    color: #fff;
+  }
+  .filter-btn{
+    text-align: center;
+    padding: 20px;
+
+  }
+  .item-card p:first-of-type {
+    font-weight: bold;
+  }
+  
+  .item-card p:last-of-type {
+    color: #ffc107; 
+  }
+  .filter-btn {
+    background-color: #ffc107;
+  }
+ 
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .filter{
+        background-image: url(../../assets/chaithra.jpg);
+        background-size: cover; 
+        background-position: center; 
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        color: #FBC02D;
+    }
+    .rc{
+        display: inline;
+    }
+    .filter-lists {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .filter-img {
+      max-width: 60%;
+      margin-bottom: 20px;
+    }
+  
+    .filter-menu h2 {
+      font-size: 2rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .filter-menu h2 {
+      font-size: 1.8rem;
+    }
+  
+    .filter-img {
+      width: 80%;
+    }
+  }
+  
