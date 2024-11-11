@@ -9,9 +9,9 @@ const About = () => {
       <div className="container">
         <h1>About Us</h1>
       </div>
-        <h2>We Deliver Best &</h2>
+        <h2 className="h2">We Deliver Best &</h2>
        
-        <h3>Delicious Food For You</h3>
+        <h3 className="h3">Delicious Food For You</h3>
       <div id="images-div">
         <div className="info-div">
           <p>Enjoy our food experience</p>
@@ -19,11 +19,11 @@ const About = () => {
           <p>We make people's choices.</p>
 
           <div className="count">
-            <h3>100+</h3>
-            <p>Delicious foods in</p>
-            <p>our menu</p>
+            <h3 className="cunt">100+</h3>
+            <p>Delicious foods in
+            our menu</p>
           </div>
-          <button className="menu-button">View Our Menu</button>
+          <button className="menu">View Our Menu</button>
         </div>
 
         <div>

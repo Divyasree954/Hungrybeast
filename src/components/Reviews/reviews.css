@@ -95,14 +95,15 @@
     color: #FFFFFF;
     padding: 10px;
 }
-
 /* Responsive Styles */
 @media (max-width: 768px) {
+    .revew{
+       background-image: url(../../assets/bacg1.jpg); 
+    }
     .title {
         font-size: 2em;
        
     }
-
     .subtitle {
         font-size: 1em;
         margin-bottom: 30px;

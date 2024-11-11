@@ -9,7 +9,8 @@ import inboxBackground from "../../assets/cm.jpg";
 const Reviews = () => {
     return (
         <section id="reviews">
-        <div className="background" style={{ backgroundImage: `url(${newBackgroundImg})` }}> 
+        <div className="revew">
+         <div className="background" style={{ backgroundImage: `url(${newBackgroundImg})`}}> 
             <h1 className="title">Reviews</h1>
             <p className="subtitle">What our customers are saying.....</p>
             <div className="reviews">
@@ -35,6 +36,7 @@ const Reviews = () => {
                     <p className="review-text">The food was really very tasty. I really enjoyed a lot with my friends.</p>
                 </div>
             </div>
+         </div>
         </div>
         </section>
     );

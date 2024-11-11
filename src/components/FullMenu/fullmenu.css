@@ -1,8 +1,6 @@
 .menu-container{
 
-   background-image: url(../../assets/menu.jpg);
-
-    background-image: url('../../assets/menu.jpg');
+   background-image: url(../../assets/cm.jpg);
 
     background-size: cover; 
     background-repeat: no-repeat;
