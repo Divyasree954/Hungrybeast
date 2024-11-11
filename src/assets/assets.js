@@ -39,6 +39,7 @@ import location from './location.jpg'
 import logo from './hblogo.png'
 
 
+
 export const assets={
     bgimg,
     Chicken_Biryani_headers,familypack,
@@ -236,5 +237,5 @@ export const MenuData=[
 ]
 
 export const team = {
-    arpana,lakshmi,marrappa,linkedin,twitter,facebook,youtube,location,logo
+    arpana,lakshmi,marrappa,linkedin,twitter,facebook,youtube,location,logo,
 }
