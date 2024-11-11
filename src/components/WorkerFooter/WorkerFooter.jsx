@@ -10,7 +10,7 @@ const WorkerFooter = () => {
       <h2>Meet our Team Members....</h2>
       <div className='team-img'>
         <div className="member">
-          <img src={team.arpana} alt="Arpana" />
+          <img src={team.arpana} alt="Arpana"/>
           <p>ARPANA</p>
         </div>
         <div className="member">
@@ -40,7 +40,7 @@ const WorkerFooter = () => {
       <div className='footer-links3'>
         <p className='p-0'>Contact Us</p>
         <p className='p-1'>Phone: 95810 20600</p>
-        <p className='p-2'>Email: <br /> dineshkumar08577@gmail.com</p>
+        <p className='p-2'>Email: <br/>dineshkumar08577@gmail.com</p>
         <img src={team.logo} alt="logo" />
       </div>
       </div>
