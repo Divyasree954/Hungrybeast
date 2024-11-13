@@ -22,7 +22,7 @@ const FullMenu = () => {
           <img src={selectedCategory.image} className='filter-img' alt="" />
       <div className="filter-lists">
         {selectedCategory.items.map((item, index) => (
-          <div key={index} className="item-card">
+          <div key={index}  className="item-card">
             <p >{item.name}</p>
             <p>-₹{item.price}</p>
           </div>

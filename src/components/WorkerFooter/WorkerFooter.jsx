@@ -1,4 +1,4 @@
-import React from 'react';
+// import React from 'react';
 import './workerfooter.css';
 import { team } from '../../assets/assets.js';
 

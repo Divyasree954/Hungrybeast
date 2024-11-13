@@ -1,6 +1,6 @@
-import React from "react";
+// import React from "react";
 import "./reviews.css";
-import newBackgroundImg from "../../assets/cm.jpg"; 
+// import newBackgroundImg from "../../assets/cm.jpg"; 
 import charlieImg from "../../assets/charlie.avif";
 import johnDoeImg from "../../assets/john-doe.avif";
 import karthikImg from "../../assets/karthik.jpg";``
@@ -10,7 +10,7 @@ const Reviews = () => {
     return (
         <section id="reviews">
         <div className="revew">
-         <div className="background" style={{ backgroundImage: `url(${newBackgroundImg})`}}> 
+         <div className="background" > 
             <h1 className="title">Reviews</h1>
             <p className="subtitle">What our customers are saying.....</p>
             <div className="reviews">

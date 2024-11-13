@@ -9,3 +9,17 @@
     box-sizing: border-box;
     font-family: inknut antiqua;
 }
+body{
+    background-image: url(newbg.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+@media (max-width: 450px) {
+    body{
+      background-image: url(newrepobg.jpg);
+      /* background-size: 100vw; */
+      /* background-size: cover; */
+    }
+  }
