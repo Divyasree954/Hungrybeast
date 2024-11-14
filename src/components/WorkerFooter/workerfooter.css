@@ -179,10 +179,13 @@
     .footer-links1, .footer-links2, .footer-links3 {
         margin: 10px 0;
     }
+    .footer-links1 .p-0, .footer-links2 .p-0, .footer-links3 .p-0{
+        margin-left:0;
+    }
 
     .footer-links1 .p-1, .footer-links2 .p-1, .footer-links2 .p-2, .footer-links2 .p-3, .footer-links3 .p-1, .footer-links3 .p-2 {
         font-size: 18px;
-        text-align: center;
+        margin-left:0px;
     }
 
     .footer-imgs {
