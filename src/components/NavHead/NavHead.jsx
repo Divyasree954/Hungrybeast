@@ -40,10 +40,16 @@ function NavHead()
           </Link>
         </section>
         </div>
+
         <div className="homeimgs">
           <img src={assets.homeimgs} alt="" />
         </div>
         
+
+        <div className="food-images">
+          <img src="src/assets/Screenshot__237__-_Copy-removebg-preview.png" alt="" />
+        </div>
+
      </div>
      </div>
      </section>

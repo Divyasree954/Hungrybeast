@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Outfit:wght@100..900&display=swap');
 .team {
-    /* background-image: url('../../assets/cm.jpg'); */
+   /*background-image: url('../../assets/cm.jpg');*/
     height:750px;
 }
 
@@ -177,10 +177,13 @@
     .footer-links1, .footer-links2, .footer-links3 {
         margin: 10px 0;
     }
+    .footer-links1 .p-0, .footer-links2 .p-0, .footer-links3 .p-0{
+        margin-left:0;
+    }
 
     .footer-links1 .p-1, .footer-links2 .p-1, .footer-links2 .p-2, .footer-links2 .p-3, .footer-links3 .p-1, .footer-links3 .p-2 {
         font-size: 18px;
-        text-align: center;
+        margin-left:0px;
     }
 
     .footer-imgs {
