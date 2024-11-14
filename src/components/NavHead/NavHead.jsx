@@ -1,20 +1,29 @@
 // import React from 'react'
+import  { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './Navhead.css'
-
+import {assets} from '../../assets/assets'
 function NavHead()
 {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
   return (
     <section id="home">
     <div className="home">
       <nav className="navbar">
       <img src="./public/hglogo 1.png" alt="Hungry Beast" className="logo" />
-      <ul className="nav-links">
-       <li><a href="#home">Home</a></li>
-       <li><a href="#aboutus">About Us</a></li>
-       <li><a href="#menu">Menu</a></li>
-       <li><a href="#reviews">Reviews</a></li>
-       <li><a href="#team">Team</a></li>
+      <button className="menu-toggle" onClick={toggleMenu}>
+        ☰
+      </button>
+      <ul className={`nav-links ${isMenuOpen ? 'open' : ''}`}>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#aboutus">About Us</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#reviews">Reviews</a></li>
+        <li><a href="#team">Team</a></li>
       </ul>
       </nav>
       <div className="content">
@@ -31,9 +40,16 @@ function NavHead()
           </Link>
         </section>
         </div>
+
+        <div className="homeimgs">
+          <img src={assets.homeimgs} alt="" />
+        </div>
+        
+
         <div className="food-images">
           <img src="src/assets/Screenshot__237__-_Copy-removebg-preview.png" alt="" />
         </div>
+
      </div>
      </div>
      </section>
