@@ -24,6 +24,7 @@ const About = () => {
             <p>Delicious foods in
             our menu</p>
           </div>
+          <button className="menu">View Our Menu</button>
           <Link to='/fullmenu'>
           
           <button className="menu">View Our Menu</button>

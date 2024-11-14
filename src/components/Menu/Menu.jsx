@@ -18,7 +18,7 @@ const Menu = () => {
     
 
     <section id="menu">
-
+    
     <div className="menu-bg flex items-center justify-center">
       <div className=''>
         <div className="p-9">
