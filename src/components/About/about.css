@@ -115,8 +115,8 @@
   .h3{
     font-size: px;
   }
-  .cunt{
-    font-size: 50px;
+  .hundred{
+    font-size: 30px;
   }
   .count{
     display:grid;
@@ -134,7 +134,6 @@
     .about-container img {
         width: 50px;
         height:50px;
-        
     }
     .about-container {
       justify-content:center;
@@ -142,7 +141,7 @@
     } 
     .menu {
       font-size: 14px;
-      margin-left: 0;
+      margin-left: 0px;
       padding: 8px 16px;
   }
   #images-div {
@@ -172,9 +171,9 @@
         font-size: 1.1rem;     
     }      
     .about-container img {         
-        width: 250px;         
-        height: 230px;         
-        margin-left: 5px;     
+        width: 300px;         
+        height: 230px;           
+        margin-top: 20px;  
     }     
     .menu {         
         padding: 10px 20px;         
@@ -188,7 +187,6 @@
     .info-div {     
         font-size: 18px;    
     } 
-    
     .about-container h2 {   
         margin-right: 0 !important;   
         font-size: 22px !important; 
