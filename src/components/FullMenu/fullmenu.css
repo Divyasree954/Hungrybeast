@@ -1,10 +1,10 @@
 .menu-container{
 
-   background-image: url(../../assets/cm.jpg);
+   /* background-image: url(../../assets/cm.jpg);
 
     background-size: cover; 
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: fixed; */
     color: #FBC02D;
   }
   .menu-section {
@@ -58,7 +58,7 @@
  
   @media (max-width: 768px) {
     .menu-container{
-      background-image: url('../../assets/cm.jpg');
+      /* background-image: url('../../assets/cm.jpg'); */
     }
     .section-content {
       flex-direction: column; 

@@ -1,4 +1,4 @@
-import bgimg from './menu.jpg'
+// import bgimg from './menu.jpg'
 import beverage from './beverage.jpg'
 import chefSpecial from './chefSpecial.jpg'
 import Chicken_Biryani_headers from './Chicken-Biryani-header.jpg'
@@ -37,11 +37,10 @@ import youtube from './youtube.jpg'
 import twitter from './twitter.jpg'
 import location from './location.jpg'
 import logo from './hblogo.png'
-
+// import newbg from './newbg.jpg'
 
 
 export const assets={
-    bgimg,
     Chicken_Biryani_headers,familypack,
     header_img,header,menu_bg,chaithra,cm,cmenu
 }
