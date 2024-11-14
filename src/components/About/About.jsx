@@ -14,7 +14,9 @@ const About = () => {
         <h3 className="h3">Delicious Food For You</h3>
       <div id="images-div">
         <div className="info-div">
-          <p>Enjoy our food experience <br />We don't just make food We make people's choices.</p>
+          <p>Enjoy our food experience</p>
+          <p>We don't just make food </p>
+          <p>We make people's choices</p>
           <div className="count">
             <h3 className="hundred">100+</h3>
             <p>Delicious foods in
