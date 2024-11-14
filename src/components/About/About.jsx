@@ -1,6 +1,7 @@
 import React from 'react';
 import './about.css';
 import chickenFriedRice from '../../assets/chicken-biryani.jpg';
+import { Link } from 'react-router-dom';
 
 const About = () => {
   return (
@@ -23,9 +24,11 @@ const About = () => {
             <p>Delicious foods in
             our menu</p>
           </div>
+          <button className="menu">View Our Menu</button>
+          <Link to='/fullmenu'>
           
           <button className="menu">View Our Menu</button>
-        
+          </Link>
         </div>
 
         <div>

@@ -3,11 +3,11 @@
  gap: 100px;
   }
   .filter{
-    background-image: url(../../assets/cm.jpg);
+    /* background-image: url(../../assets/cm.jpg);
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: fixed; */
     color: #FBC02D;
     background-size: contain;
     /* height: 200vh; */
@@ -39,6 +39,7 @@
   
   .item-card {
     display: flex;
+    /* text-align: center; */
   }
   
   .item-card p {
@@ -64,11 +65,11 @@
   /* Responsive adjustments */
   @media (max-width: 768px) {
     .filter{
-        background-image: url(../../assets/chaithra.jpg);
+        /* background-image: url(../../assets/chaithra.jpg);
         background-size: cover; 
         background-position: center; 
         background-repeat: no-repeat;
-        background-attachment: fixed;
+        background-attachment: fixed; */
         color: #FBC02D;
     }
     .rc{

@@ -1,4 +1,5 @@
 // import React from 'react'
+import { Link } from 'react-router-dom';
 import './Navhead.css'
 
 function NavHead()
@@ -24,7 +25,10 @@ function NavHead()
         <p className="para1" >A Really Good Place to Eat</p> <br />
         <p className="para1">Enjoy Our Delicious Meal</p> <br /> <br /> 
         <section id="menu">
+          <Link to='/fullmenu'>
+          
         <button className="explore-btn">Explore Menu</button>
+          </Link>
         </section>
         </div>
         <div className="food-images">

@@ -1,8 +1,8 @@
 .home
   {
-    background-image: url(../../assets/cm.jpg);
+    /* background-image: url(../../assets/cm.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; */
     color:#FBC02D;
     height: 100vh;
     display: flex;
@@ -35,6 +35,7 @@
   }
   .content {
     text-align: left;
+
     margin-top: 400px;
    
   }

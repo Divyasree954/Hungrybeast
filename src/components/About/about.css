@@ -53,9 +53,9 @@
     font-size: 20px;
   }
   .about-container{
-    background-image:url('../src/assets/cm.jpg');
+    /* background-image:url('../src/assets/cm.jpg');
     background-repeat:no-repeat;
-    background-size:cover;
+    background-size:cover; */
     color:white;
   }
   .about-container img {
