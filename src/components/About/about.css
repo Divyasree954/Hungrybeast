@@ -50,7 +50,7 @@
    text-align:center;
   }
   .info-div{
-    font-size: 25px;
+    font-size: 20px;
   }
   .about-container{
     background-image:url('../src/assets/cm.jpg');
@@ -81,7 +81,7 @@
     transition: background 0.3s, transform 0.3s, box-shadow 0.3s; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
     margin-top:7%;
-    margin-left: 50px;
+    margin-left: 20px;
   }
   
   .menu:hover {
@@ -132,8 +132,8 @@
     }
 
     .about-container img {
-        width: 200px;
-        height:200px;
+        width: 50px;
+        height:50px;
         
     }
     .about-container {
@@ -145,7 +145,7 @@
       margin-left: 0;
       padding: 8px 16px;
   }
-    #images-div {
+  #images-div {
         padding: 0 5%;
         display:grid;
     }
