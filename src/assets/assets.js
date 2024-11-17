@@ -39,6 +39,7 @@ import location from './location.jpg'
 import logo from './hblogo.png'
 // import newbg from './newbg.jpg'
 import homeimgs from './homeimgs.png'
+import devimg from './dev-img.jpg'
 
 export const assets={
     Chicken_Biryani_headers,familypack,
@@ -236,5 +237,5 @@ export const MenuData=[
 ]
 
 export const team = {
-    arpana,lakshmi,marrappa,linkedin,twitter,facebook,youtube,location,logo,
+    arpana,lakshmi,marrappa,linkedin,twitter,facebook,youtube,location,logo,devimg,
 }
