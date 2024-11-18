@@ -6,6 +6,7 @@ import { assets } from '../../assets/assets'
 function NavHead() {
   return (
     <section id="home">
+
       <div className="home">
         <div className="content">
           <div className="header">
@@ -28,6 +29,7 @@ function NavHead() {
         </div>
       </div>
     </section>
+
   );
 }
 export default NavHead

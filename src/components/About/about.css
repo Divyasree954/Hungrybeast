@@ -50,7 +50,7 @@
    text-align:center;
   }
   .info-div{
-    font-size: 25px;
+    font-size: 20px;
   }
   .about-container{
     /* background-image:url('../src/assets/cm.jpg');
@@ -81,7 +81,7 @@
     transition: background 0.3s, transform 0.3s, box-shadow 0.3s; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
     margin-top:7%;
-    margin-left: 50px;
+    margin-left: 20px;
   }
   
   .menu:hover {
@@ -115,8 +115,8 @@
   .h3{
     font-size: px;
   }
-  .cunt{
-    font-size: 50px;
+  .hundred{
+    font-size: 30px;
   }
   .count{
     display:grid;
@@ -132,9 +132,8 @@
     }
 
     .about-container img {
-        width: 200px;
-        height:200px;
-        
+        width: 50px;
+        height:50px;
     }
     .about-container {
       justify-content:center;
@@ -142,10 +141,10 @@
     } 
     .menu {
       font-size: 14px;
-      margin-left: 0;
+      margin-left: 0px;
       padding: 8px 16px;
   }
-    #images-div {
+  #images-div {
         padding: 0 5%;
         display:grid;
     }
@@ -172,9 +171,9 @@
         font-size: 1.1rem;     
     }      
     .about-container img {         
-        width: 250px;         
-        height: 230px;         
-        margin-left: 5px;     
+        width: 300px;         
+        height: 230px;           
+        margin-top: 20px;  
     }     
     .menu {         
         padding: 10px 20px;         
@@ -188,7 +187,6 @@
     .info-div {     
         font-size: 18px;    
     } 
-    
     .about-container h2 {   
         margin-right: 0 !important;   
         font-size: 22px !important; 

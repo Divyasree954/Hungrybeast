@@ -6,19 +6,15 @@
     color:#FBC02D;
     height: 100vh;
     display: flex;
-    /* flex-direction: column; */
-    /* justify-content: center; */
-    /* justify-content: space-between; */
+    flex-direction: column;
+    justify-content: center;
   }
-  
+
   .content {
     text-align: left;
-    /* margin-top: 200px; */
-    display: flex;
-  }
-  .homeimgs{
-    margin-top: 10rem;
-    margin-left: 7rem;
+
+    margin-top: 440px;
+   
   }
   .h1{
     margin: 0.5rem 0;
@@ -61,83 +57,29 @@
     background-color:  #FF862F; /* Lighter shade for hover */
     transform: scale(1.05); /* Slightly enlarge the button on hover */
   }
-  .image1:hover{
-    transform: scale(1.05);
-  }
-  .image2:hover{
-    transform: scale(1.05);
-  }
-  .image3:hover{
-    transform: scale(1.05);
-  }
   .food-images {
       display: flex;
       gap: 1rem;
       position: relative;
       left: 600px;
-      bottom: 420px;
+      bottom: 510px;
     }
-  .image4:hover{
-    transform: scale(1.05);
-  }
   .food-images img {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-  }
-  .image2{
-    margin-top: 70px;
-  }
-  .image3{
-     margin-top: 20px;
-  }
-  .image4{
-    margin-top: 170px;
+    width:600px;
+    height: 600px;
+    border-radius: 30%;
+    margin-left:140px;
   }
   .logo
   { 
   margin-left: 120px;
    height: 70px;
   }   
-  .food-images {
-    --s: 150px; /* control the size */
-    display: grid;
-    gap: 10px; /* control the gap */
-    grid: auto-flow var(--s)/repeat(3,var(--s));
-    place-items: center;
-    margin: calc(var(--s)/4);
-    margin-left: 170px;
-    
-  }
-  .food-images > img {
-    width: 100%;
-    aspect-ratio: 1;
-    object-fit: cover;
-  }
-  .food-images > img:nth-child(odd) {
-    border-radius: 100%;
-    width: 141%;
-  }
-  .food-images > img:nth-child(even) {
-    border-radius: 50%;
-    width: 141%;
-  }
   .header{
-    margin-top: 220px;
+    margin-top: 240px;
   }
-  .image5{
-    margin-top: 150px;
-    margin-left: 20px;
-  }
-  .image6{
-      margin-top: 220px;
-  }
-  .image5:hover{
-    transform: scale(1.05);
-  }
-  .image6:hover{
-    transform: scale(1.05);
-  }
+  
+
   .menu-toggle {
     display: none;
     font-size: 24px;
@@ -146,6 +88,9 @@
     color: #FBC02D;
     cursor: pointer;
   }
+
+  
+
   @media (max-width: 768px) {
    
     .header{
@@ -158,6 +103,7 @@
         background-size: cover;
         text-align: center;
     }
+
 
     .content {
         margin-top: 50px;
@@ -198,12 +144,12 @@
         
     }
     .food-images img {
-      width: 50px;
-      height: 180px;
+        width: 300px;
+        height: 300px;
         position: relative;
         flex-direction: row;
-        right: 570px;
-        top: 400px;
+        right: 660px;
+        top: 540px;
     }
     .logo{
       margin-left: 0px;
@@ -234,8 +180,9 @@
         padding: 6px 12px;
     }
     .food-images img {
-        width: 120px;
-        height: 120px;
+        width: 300px;
+        height: 300px;
+        right: 715px;
     }
 
     .logo {

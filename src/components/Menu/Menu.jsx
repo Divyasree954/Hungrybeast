@@ -12,12 +12,13 @@ const Menu = () => {
   const handleClick = (menuName) => {
     navigate(`/fullmenu/${menuName}`);
   };
-
   return (
+
 
     <div id='menus'>
 
     
+
     <div className="menu-bg flex items-center justify-center">
       <div className=''>
         <div className="p-9">
@@ -58,7 +59,9 @@ const Menu = () => {
         </Link>
       </div>
     </div>
+
     </div>
+
   );
 };
 export default Menu;
