@@ -1,4 +1,4 @@
-import React from 'react';
+// import React from 'react';
 import './about.css';
 import chickenFriedRice from '../../assets/chicken-biryani.jpg';
 import { Link } from 'react-router-dom';
