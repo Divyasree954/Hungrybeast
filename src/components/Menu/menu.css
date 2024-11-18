@@ -12,8 +12,3 @@
 .menu-buttons{
     background-color: #FBC02D;
 }
-@media (max-width: 410px) {
-    .menu-bg {
-        /* background-image: url('../../assets/cm.jpg'); */
-    }
-}

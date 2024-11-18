@@ -15,10 +15,9 @@ const Menu = () => {
 
   return (
 
+    <div id='menus'>
+
     
-
-    <section id="menu">
-
     <div className="menu-bg flex items-center justify-center">
       <div className=''>
         <div className="p-9">
@@ -59,7 +58,7 @@ const Menu = () => {
         </Link>
       </div>
     </div>
-    </section>
+    </div>
   );
 };
 export default Menu;

@@ -10,30 +10,7 @@
     /* justify-content: center; */
     /* justify-content: space-between; */
   }
-  .navbar 
-  {
-    position: absolute;
-    top: 0;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    padding: 1rem 2rem;
-  }
-  .nav-links {
-    display: flex;
-    list-style: none;
-    color: #FBC02D;
-    font-size: 18px;
-    margin-right: 100px;
-  }
-  .nav-links a:hover {
-    color: #FF862F; /* Hover color */
-    transform: scale(1.05); /* Slight zoom effect on hover */
-  }
-  .nav-links li {
-   margin: 0 1.5rem;
-   cursor: pointer;
-  }
+  
   .content {
     text-align: left;
     /* margin-top: 200px; */
@@ -170,28 +147,7 @@
     cursor: pointer;
   }
   @media (max-width: 768px) {
-    .menu-toggle {
-      display: block;
-      margin-left: 20rem;
-      margin-top: -55px;
-    }
-  
-    .nav-links {
-      display: none;
-      flex-direction: column;
-      margin-top: 5px;
-      margin-left: 17rem;
-      color: #fff;
-      background-color: rgba(0, 0, 0, 0.3); /* Semi-transparent background */
-      backdrop-filter: blur(10px); /* Background blur effect */
-      border-radius: 10px; /* Optional: Rounded corners */
-      padding: 10px;
-    }
-    
-  
-    .nav-links.open {
-      display: flex;
-    }
+   
     .header{
       /* top: 0; */
       margin-top: 10px;
@@ -201,22 +157,6 @@
         padding: 20px;
         background-size: cover;
         text-align: center;
-    }
-
-    .navbar {
-        padding: 1rem;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .nav-links {
-        flex-direction: column;
-        margin-right: 0;
-        font-size: 16px;
-    }
-
-    .nav-links li {
-        margin: 0.5rem 0;
     }
 
     .content {
@@ -268,24 +208,6 @@
     .logo{
       margin-left: 0px;
     }
-    .image1{
-      margin-top: 50px;
-    }
-    .image2{
-      margin-top: 50px;
-    }
-    .image3{
-      margin-top: 130px;
-    }
-    .image4{
-      margin-top: 130px;
-    }
-    .image5{
-      margin-top: 210px;
-    }
-    .image6{
-      margin-top: 210px;
-    }
 }
 
 @media (max-width: 480px) {
@@ -293,13 +215,7 @@
         padding: 15px;
     }
 
-    .navbar {
-        padding: 0.5rem;
-    }
-
-    .nav-links {
-        font-size: 14px;
-    }
+   
 
     .h1 {
         font-size: 28px;
