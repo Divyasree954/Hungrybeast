@@ -23,7 +23,7 @@ function NavHead() {
             </section>
           </div>
           <div className="homeimgs">
-            <img src={assets.homeimgs} alt="" />
+            <img src={assets.homeimgs} width="600px" height="600px" alt="" />
           </div>
 
         </div>
