@@ -4,7 +4,7 @@ import { team } from '../../assets/assets.js';
 
 const WorkerFooter = () => {
   return (
-    <>
+    <section id="contact"> 
       <h1 className='contact-h1'>Contact Us</h1>
       <div className='main-footer'>
         <div className='footer'>
@@ -39,7 +39,7 @@ const WorkerFooter = () => {
 
       </div>
       
-    </>
+    </section>
   );
 }
 

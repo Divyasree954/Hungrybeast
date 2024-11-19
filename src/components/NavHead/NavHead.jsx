@@ -32,4 +32,4 @@ function NavHead() {
 
   );
 }
-export default NavHead
+export default NavHead 

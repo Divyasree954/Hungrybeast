@@ -38,7 +38,7 @@ import twitter from './twitter.jpg'
 import location from './location.jpg'
 import logo from './hblogo.png'
 // import newbg from './newbg.jpg'
-import homeimgs from './homeimgs.png'
+import homeimgs from './homeimage.png'
 import devimg from './dev-img.jpg'
 
 export const assets={
