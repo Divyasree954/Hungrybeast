@@ -94,7 +94,16 @@
     transform: translateY(2px); 
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
   }
+  .image:hover {
+    background: linear-gradient(#FF862F);
+    transform: translateY(-3px) scale(1.05); 
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4); 
+  }
   
+  .image:active {
+    transform: translateY(2px); 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
+  }
   #images-div{
     justify-content:space-between;
     display:flex;
@@ -117,6 +126,7 @@
   }
   .hundred{
     font-size: 30px;
+ 
   }
   .count{
     display:grid;
@@ -137,6 +147,7 @@
     }
     .about-container {
       justify-content:center;
+      height: auto;
         
     } 
     .menu {

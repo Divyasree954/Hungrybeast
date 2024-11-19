@@ -13,7 +13,7 @@
   .content {
     text-align: left;
 
-    margin-top: 440px;
+    margin-top: 350px;
    
   }
   .h1{
@@ -57,28 +57,23 @@
     background-color:  #FF862F; /* Lighter shade for hover */
     transform: scale(1.05); /* Slightly enlarge the button on hover */
   }
-  .food-images {
-      display: flex;
-      gap: 1rem;
-      position: relative;
-      left: 600px;
-      bottom: 510px;
+  .homeimgs {
+     position: relative;
+     margin-left: 770px;
+     bottom: 490px;
     }
-  .food-images img {
-    width:600px;
-    height: 600px;
-    border-radius: 30%;
-    margin-left:140px;
-  }
+    .homeimgs img{
+      width: 600px;
+      height: 600px;
+    }
   .logo
   { 
   margin-left: 120px;
    height: 70px;
   }   
   .header{
-    margin-top: 240px;
+    margin-top: 320px;
   }
-  
 
   .menu-toggle {
     display: none;
@@ -106,15 +101,17 @@
 
 
     .content {
-        margin-top: 50px;
+        margin-top: 70px;
         text-align: center;
         /* justify-content: ; */
         flex-direction: column;
         /* margin-left: -1rem; */
     }
     .homeimgs{
-      margin-top: 1rem;
-      margin-left: -5px;
+      margin-top: 32rem;
+      margin-left: -20px;
+      width: 400px;
+      height: 300px;
     }
 
     .h1 {
@@ -142,14 +139,7 @@
         grid-template-columns: repeat(2, 1fr);
         margin-left: 0;
         
-    }
-    .food-images img {
-        width: 300px;
-        height: 300px;
-        position: relative;
-        flex-direction: row;
-        right: 660px;
-        top: 540px;
+    
     }
     .logo{
       margin-left: 0px;
@@ -160,9 +150,6 @@
     .home {
         padding: 15px;
     }
-
-   
-
     .h1 {
         font-size: 28px;
     }
