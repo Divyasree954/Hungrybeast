@@ -9,7 +9,7 @@ import inboxBackground from "../../assets/cm.jpg";
 
 const Reviews = () => {
     return (
-        <section id="reviews">
+        <section id="reviews" className="pt-5">
             <div className="review">
                 <div className="background">
                     <h1 className="title">Reviews</h1>

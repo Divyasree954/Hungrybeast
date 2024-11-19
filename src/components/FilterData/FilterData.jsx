@@ -8,6 +8,9 @@ const FullMenu = () => {
     useEffect(() => {
         window.scrollTo(0, 0);
       }, []);
+      const handleBackClick = () => {
+        window.history.back(); // Go back to the previous scroll position
+      };
   const { categoryName } = useParams();
   const selectedCategory = MenuData.find((category) => category.title === categoryName);
   if (!selectedCategory) {
@@ -30,9 +33,9 @@ const FullMenu = () => {
       </div>
       </div>
     </div>
-    <Link to='/'>
+    {/* <Link to='/'> */}
           <div className='text-center p-7 text-black'>
-            <button className='filter-btn 
+            <button onClick={handleBackClick} className='filter-btn 
     bg-orange-450 text-black font-semibold py-2 px-4 rounded-lg 
     shadow-md transition-transform duration-300 transform hover:scale-105 
     hover:bg-orange-450 active:scale-95 focus:outline-none focus:ring-2 focus:ring-orange-40 
@@ -40,7 +43,7 @@ const FullMenu = () => {
               Back
             </button>
           </div>
-        </Link>
+        {/* </Link> */}
     </div>
   );
 };

@@ -1,97 +1,21 @@
-.navbar 
-  {
-    position: absolute;
-    top: 0;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    padding: 1rem 2rem;
-    /* background-color: white; */
-    background-color: rgba(0, 0, 0, 0.3); /* Semi-transparent background */
-      backdrop-filter: blur(10px);
-      height: 4rem;
-      position: fixed;
+.logo{
+    margin-bottom: -20px;
+    height: 70px;
+}
+/* Menu icon color customization */
+.menu-icon {
+    filter: invert(39%) sepia(76%) saturate(2161%) hue-rotate(7deg) brightness(101%) contrast(95%);
   }
-  .nav-links {
-    display: flex;
-    list-style: none;
-    color: #FBC02D;
-    font-size: 18px;
-    margin-right: 100px;
-  }
-  .nav-links a:hover {
-    color: #FF862F; /* Hover color */
-    transform: scale(1.05); /* Slight zoom effect on hover */
-  }
-  .nav-links li {
-   margin: 0 1.5rem;
-   cursor: pointer;
-  }
-  .logo{
-   margin-top: -20px;
-  }
- 
-  @media (max-width: 768px) {
-    .menu-toggle {
-      display: block;
-      margin-left: 20rem;
-      margin-top: -55px;
-    }
   
-    .nav-links {
-      display: none;
-      flex-direction: column;
-      margin-top: 5px;
-      margin-left: 17rem;
-      color: #fff;
-      background-color: rgba(0, 0, 0, 0.3); /* Semi-transparent background */
-      backdrop-filter: blur(10px); /* Background blur effect */
-      border-radius: 10px; /* Optional: Rounded corners */
-      padding: 10px;
-    }
+  .menu-icon:hover {
+    filter: invert(50%) sepia(80%) saturate(1800%) hue-rotate(10deg) brightness(110%) contrast(105%);
+  }
+/* Close icon color customization */
+.close-icon {
+    filter: invert(39%) sepia(76%) saturate(2161%) hue-rotate(7deg) brightness(101%) contrast(95%);
+  }
+  
+  .close-icon:hover {
+    filter: invert(50%) sepia(80%) saturate(1800%) hue-rotate(10deg) brightness(110%) contrast(105%);
+  }
     
-  
-    .nav-links.open {
-      display: flex;
-    }
-    .navbar {
-        padding: 1rem;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .nav-links {
-        flex-direction: column;
-        /* margin-right: 0; */
-        /* text-align: center; */
-        /* padding-left: -80px; */
-        padding-right: 10rem;
-        height: 95vh;
-        font-size: 16px;
-    }
-    .nav-links:active{
-      display: none;
-    }
-
-    .nav-links li {
-        margin: 0.5rem 0;
-    }
-     .navbar-link{
-    background: #000;
-    /* align-items: center; */
-    text-align: center;
-  }
-}
-
-@media (max-width: 480px) {
-   .logo{
-    margin-top: 3px;
-   }
-    .navbar {
-        padding: 0.5rem;
-    }
-
-    .nav-links {
-        font-size: 14px;
-    }
-}

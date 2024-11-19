@@ -1,198 +1,38 @@
-.about-container {
-    display: flex;
-    flex-direction: column;
-    align-items: centre; 
-    gap: 20px; 
-    padding: 20px;
- 
+.about-us {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* background-color: black; */
+  color: yellow;
+  padding: 2rem;
 }
-  h1 {
-    font-size: 25rem; 
-    font-weight: bold;  
-    justify-content: center;
-    margin-right: 200px;
+.about-title {
+  font-size: 2rem; 
+  padding-bottom: 2rem;
+}
+.about-us h1 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.about-us img {
+  border-radius: 0.5rem;
+}
+.about-left{
+  margin-bottom: 30px;
+}
+@media (max-width: 480px) {
+  .about-title{
+    padding-top: 30px;
   }
-  
-  .about-text {
-    max-width: 600px; 
-    text-align:right; 
-    align-items:left; 
-    font-family: 'Inknut Antiqua', serif; 
-    color: white; 
+  .about-us {
+    flex-direction: row;
+    justify-content: space-between;
   }
-  .about-text p {
-    font-family: 'Inria Serif', serif; 
-    color:white; 
-    align-items:centre;
-    font-size: 7rem; 
-    margin: 10px 0; 
-    margin-right: 100px;
+  #aboutus{
+    padding-top: 0;
   }
-  
-  .about-container h1 {
-    color: yellow; 
-    font-size:4vh; 
-    text-align:center;
-    color:#FBc02D; 
-   margin: center;
-   margin-top:30px;
-  }
-  .about-container h2 {
-    color: #FBc02D; 
-    font-size: 2rem;
-    text-align:center;
-   margin-right: 500px;
-  }
-  .about-container h3 {
-    color: #FBc02D; 
-    font-size: 2rem;
-    font-weight: bold;
-   text-align:center;
-  }
-  .info-div{
+  .about-head{
     font-size: 20px;
   }
-  .about-container{
-    /* background-image:url('../src/assets/cm.jpg');
-    background-repeat:no-repeat;
-    background-size:cover; */
-    color:white;
-  }
-  .about-container img {
-    width: 350px; 
-    height: 50vh; 
-    padding: 0px; 
-    
-    border: 0px solid black; 
-    border-radius: 100px; 
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
-    flex-shrink: 0; 
-    
-  }
-    .menu {
-    padding: 12px 20px; 
-    font-size: 16px; 
-    color: black; 
-    background: #FBc02D;
-    border: none; 
-    border-radius: 10px; 
-    cursor: pointer; 
-    font-weight: bold;
-    transition: background 0.3s, transform 0.3s, box-shadow 0.3s; 
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
-    margin-top:7%;
-    margin-left: 20px;
-  }
-  
-  .menu:hover {
-    background: linear-gradient(#FF862F);
-    transform: translateY(-3px) scale(1.05); 
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4); 
-  }
-  
-  .menu:active {
-    transform: translateY(2px); 
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
-  }
-  
-  #images-div{
-    justify-content:space-between;
-    display:flex;
-    margin-left:20%;
-    margin-right:20%;
-  }
- 
-  .info-div{
-    display:grid;
-    
-    flex:none !important; 
-    align-content:center;
-    justify-content:center;
-  }
-  .h2{
-    margin-left: 400px;
-  }
-  .h3{
-    font-size: px;
-  }
-  .hundred{
-    font-size: 30px;
-  }
-  .count{
-    display:grid;
-    justify-content:center;
-  }
-  @media (max-width: 480px) {
-    h1 {
-        font-size: 1rem;
-    }
-
-    .about-text p {
-        font-size: 1rem;
-    }
-
-    .about-container img {
-        width: 50px;
-        height:50px;
-    }
-    .about-container {
-      justify-content:center;
-        
-    } 
-    .menu {
-      font-size: 14px;
-      margin-left: 0px;
-      padding: 8px 16px;
-  }
-  #images-div {
-        padding: 0 5%;
-        display:grid;
-    }
-   .info-div{
-    font-size: 16px;
-   }
-  .about-container h2{
-  margin-right:0 !important;
-  font-size: 20px !important;
- }
- .about-container h3{
-
-  font-size: 15px !important;
- }
-  }
-  @media (max-width: 798px) {     
-    .about-container {              
-        justify-content: center;   
-    }     
-    h1 {         
-        font-size: 1.25rem;     
-    }      
-    .about-text p {         
-        font-size: 1.1rem;     
-    }      
-    .about-container img {         
-        width: 300px;         
-        height: 230px;           
-        margin-top: 20px;  
-    }     
-    .menu {         
-        padding: 10px 20px;         
-        font-size: 15px;         
-        margin-top: 4%;     
-    }      
-    #images-div {         
-        padding: 0 4%;         
-        display: grid;     
-    }      
-    .info-div {     
-        font-size: 18px;    
-    } 
-    .about-container h2 {   
-        margin-right: 0 !important;   
-        font-size: 22px !important; 
-    } 
-    
-    .about-container h3 {    
-        font-size: 18px !important; 
-    }   
 }

@@ -23,3 +23,7 @@ body{
       /* background-size: cover; */
     }
   }
+
+  :root {
+    --primary-color: #FBC02D;
+  }

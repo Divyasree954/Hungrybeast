@@ -20,13 +20,13 @@
 /* Title and subtitle styles */
 .title {
     font-size: 32px;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     font-weight: bold;
 }
 
 .subtitle {
     font-size: 1.2em;
-    margin-bottom: 50px;
+    margin-bottom: 10px;
 }
 
 /* Reviews container with horizontal scrolling */
@@ -46,7 +46,7 @@
 /* Individual review card styling */
 .review-card {
     position: relative;
-    width: 250px;
+    width: 300px;
     flex-shrink: 0;
     border-radius: 15px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
@@ -155,7 +155,9 @@
     }
 
     .review-card {
-        padding: 20px;
+        /* padding: 20px; */
+    width: 200px;
+
     }
 
     .review-card img {
@@ -170,4 +172,26 @@
     .rating, .review-text {
         font-size: 0.8em;
     }
+}
+
+.reviews-slider::-webkit-scrollbar {
+    height: 8px; 
+    background-color: rgba(0, 0, 0, 0.2); 
+    border-radius: 10px; 
+}
+
+.reviews-slider::-webkit-scrollbar-thumb {
+    background-color: #FFD700;
+    border-radius: 10px; 
+    border: 2px solid transparent; 
+    background-clip: content-box; 
+}
+
+.reviews-slider::-webkit-scrollbar-thumb:hover {
+    background-color: #FFA500; 
+}
+
+.reviews-slider {
+    scrollbar-width: thin; 
+    scrollbar-color: #FFD700 rgba(0, 0, 0, 0.2);
 }

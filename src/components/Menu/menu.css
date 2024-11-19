@@ -1,14 +1,11 @@
 .menu-bg{
-
-    /* background-image: url(../../assets/cm.jpg);
-    background-size: cover; 
-    background-position: center; 
-    background-size: cover;  
-
-    background-repeat: no-repeat;
-    background-attachment: fixed; */
     color: #FBC02D;
 }
 .menu-buttons{
     background-color: #FBC02D;
 }
+@media (max-width: 480px) {
+    #menus{
+        padding-top: 0.5px;
+    }
+  }
