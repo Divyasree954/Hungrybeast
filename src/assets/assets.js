@@ -40,10 +40,12 @@ import logo from './hblogo.png'
 // import newbg from './newbg.jpg'
 import homeimgs from './homeimage.png'
 import devimg from './dev-img.jpg'
-
+import cross_icon from './cross_icon.svg'
+import menu_icon from './menu_icon.svg'
+import about from './chicken-biryani.png'
 export const assets={
     Chicken_Biryani_headers,familypack,
-    header_img,header,menu_bg,chaithra,cm,cmenu,homeimgs
+    header_img,header,menu_bg,chaithra,cm,cmenu,homeimgs,cross_icon,menu_icon,about
 }
 
 export const menu_list = [

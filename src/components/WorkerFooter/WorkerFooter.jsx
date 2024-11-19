@@ -4,7 +4,8 @@ import { team } from '../../assets/assets.js';
 
 const WorkerFooter = () => {
   return (
-    <section id="contact"> 
+    <>
+    <div id='Team'>
       <h1 className='contact-h1'>Contact Us</h1>
       <div className='main-footer'>
         <div className='footer'>
@@ -35,11 +36,11 @@ const WorkerFooter = () => {
         <img src={team.youtube} alt="youtube-icon" />
       </div>
       <div className='developed-by'>
-      <p className='dev'>Developed by Web Plus Academy</p>
+      <p className='dev'>Developed by Saredufy Web Plus Academy</p>
 
       </div>
-      
-    </section>
+      </div>
+    </>
   );
 }
 

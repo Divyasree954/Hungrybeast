@@ -1,113 +1,23 @@
-/* General Styling */
-.navbar {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1rem 2rem;
-  background-color: rgba(0, 0, 0, 0.3); /* Semi-transparent background */
-  backdrop-filter: blur(10px); /* Background blur effect */
-  z-index: 1000;
-}
 
-.logo {
-  height: 50px;
+.logo{
+    margin-bottom: -20px;
+    height: 70px;
 }
-
-/* Toggle Button */
-.menu-toggle {
-  display: none;
-  font-size: 24px;
-  background: none;
-  border: none;
-  color: #FBC02D;
-  cursor: pointer;
-  z-index: 1100;
-}
-
-/* Navigation Links */
-.nav-links {
-  list-style: none;
-  display: flex;
-  gap: 1.5rem;
-}
-
-.nav-links li {
-  margin: 0 1.5rem;
-  cursor: pointer;
-}
-
-.nav-links a {
-  color: #FBC02D;
-  text-decoration: none;
-  font-size: 18px;
-  transition: color 0.3s, transform 0.3s;
-}
-
-.nav-links a:hover {
-  color: #FF862F; /* Hover color */
-  transform: scale(1.05); /* Slight zoom effect on hover */
-}
-.nav-links.open {
-  right: 0; /* Slide-in effect */
-}
-
-/* Responsive Side Menu */
-@media (max-width: 768px) {
-  .menu-toggle {
-    display: block;
-    margin-left: 90px;
+/* Menu icon color customization */
+.menu-icon {
+    filter: invert(39%) sepia(76%) saturate(2161%) hue-rotate(7deg) brightness(101%) contrast(95%);
   }
-  .nav-links {
-    position: fixed;
-    top: 0;
-    right: -250px; /* Initially hidden */
-    width: 250px;
-    height: 100vh;
-    background-color: rgba(0, 0, 0, 0.9);
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 1.5rem;
-    transition: right 0.3s ease-in-out;
-    z-index: 1000;
+  
+  .menu-icon:hover {
+    filter: invert(50%) sepia(80%) saturate(1800%) hue-rotate(10deg) brightness(110%) contrast(105%);
   }
-  .nav-links.open {
-    right: 0; /* Slide-in effect */
+/* Close icon color customization */
+.close-icon {
+    filter: invert(39%) sepia(76%) saturate(2161%) hue-rotate(7deg) brightness(101%) contrast(95%);
   }
-  .nav-links li {
-    margin: 0.5rem 0;
+  
+  .close-icon:hover {
+    filter: invert(50%) sepia(80%) saturate(1800%) hue-rotate(10deg) brightness(110%) contrast(105%);
   }
+    
 
-  .navbar {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem 2rem;
-    background-color: rgba(0, 0, 0, 0.3); /* Semi-transparent background */
-    backdrop-filter: blur(10px); /* Background blur effect */
-    z-index: 1000;
-  }
-}
-
-@media (max-width: 480px) {
-  .nav-links {
-    width: 200px;
-  }
-
-  .nav-links a {
-    font-size: 16px;
-  }
-
-  .logo {
-    height: 40px;
-    margin-left: 100px;
-  }
-}
