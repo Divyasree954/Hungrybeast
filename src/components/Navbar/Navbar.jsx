@@ -54,7 +54,6 @@ const Navbar = () => {
   className="close-icon w-6 cursor-pointer"
   alt="Close Icon"
 />
-
         </div>
         <ul className="flex flex-col items-center gap-6 mt-10 text-[#FBC02D]">
   <a onClick={() => setShowMobileMenu(false)} href="#home" className="text-lg hover:text-gray-400">
