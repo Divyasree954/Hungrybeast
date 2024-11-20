@@ -10,11 +10,12 @@
   
   .content {
     text-align: left;
+   
     display: flex;    
   }
   .homeimgs{
-    margin-top: 10rem;
-    margin-left: 10rem;
+    margin-top: 11rem;
+    margin-left: 7rem;
     width: 550px;
   }
   .h1{
@@ -61,7 +62,8 @@
   }
   
   .header{
-    margin-top: 180px;
+    margin-top: 200px;
+    
     margin-bottom: 40px;
   }
 /* General Reset for Overflow */
@@ -151,6 +153,11 @@ body, html {
 
   .explore-btn {
     font-size: 12px;
+  }
+  .homeimgs {
+    margin-right: 10px;
+    /* max-width: 500px;  */
+    /* height: auto; */
   }
 }
 

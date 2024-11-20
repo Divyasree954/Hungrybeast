@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const AboutUs = () => {
   return (
     <>
-    <div className="pt-20 pb-5" id="aboutus">
+    <div className="pt-20  pb-5" id="aboutus">
 
       <h1 className=" text-yellow-400 text-center font-semibold about-title " >About Us</h1>
       <div className="about-left text-yellow-400 p-6 md:flex items-center space-y-6 md:space-y-0 md:space-x-10">
@@ -13,7 +13,7 @@ const AboutUs = () => {
         {/* Left Section */}
         <div className="md:w-1/2 space-y-4">
           <h1 className="md:text-4xl ml-[35px] font-bold about-head">
-            We Deliver Best{" "}
+            We Deliver Best{" "} <br />
             <span className="inline-block text-yellow-500">&</span> Delicious
             Food For You
           </h1> <br />
@@ -35,11 +35,11 @@ const AboutUs = () => {
         </div>
 
         {/* Right Section */}
-        <div className="md:w-1/2">
+        <div>
           <img
             src={assets.about} // Replace this with your image URL
             alt="Delicious Food"
-            className="rounded-lg object-cover about-img w-full sm:w-1/2 md:w-1/8" // Adjust width for different screen sizes
+            className="image" // Adjust width for different screen sizes
           />
         </div>
 
