@@ -19,8 +19,8 @@ const NavHead = () => {
               </Link>
             </section>
           </div>
-          <div className="homeimgs ">
-            <img src={assets.homeimgs} alt="" />
+          <div className="homeimgs" >
+            <img src={assets.homeimgs}  alt="" />
 
           </div>
         </div>
