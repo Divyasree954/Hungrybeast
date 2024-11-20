@@ -21,6 +21,7 @@ const NavHead = () => {
           </div>
           <div className="homeimgs ">
             <img src={assets.homeimgs} alt="" />
+
           </div>
         </div>
       </div>
