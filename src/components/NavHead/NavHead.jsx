@@ -15,13 +15,12 @@ const NavHead = () => {
             <p className="para1">Enjoy Our Delicious Meal</p> <br /> <br />
             <section id="menu">
               <Link to='/fullmenu'>
-                <button className="explore-btn">Explore Menu</button>
+                <button className="explore-btn" >Explore Menu</button>
               </Link>
             </section>
           </div>
           <div className="homeimgs" >
             <img src={assets.homeimgs}  alt="" />
-
           </div>
         </div>
       </div>
